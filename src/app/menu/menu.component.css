@@ -1,17 +1,66 @@
-.example-spacer {
-    flex: 1 1 auto;
+/* Navbar */
+
+header{
+    width: 100%;
+    background-color: #3a3a3a;
 }
 
-span{
-    padding: 5px;
+header img{
+    height: 30px;
+    width: 30px;
 }
 
-img{
-    height: 50px;
-    width: 50px;
+header .img-logo{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 100%;
 }
 
-a{
+header form{
+    width: 65%;
+}
+
+header form .lupa{
+    margin-left: -5px;
+}
+
+header button{
+    margin: 0px 5px;
+}
+
+header a{
+    color: #fff;
     text-decoration: none;
-    color: white;
+}
+
+header #menubar{
+    width: 100%;
+    margin-left: -50px;
+    margin-bottom: -24px;
+}
+
+header #menubar ul{
+    text-align: center;
+}
+
+header #menubar li{
+    height: 40px;
+    width: 240px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 8px;
+    padding: 0px 5px;
+}
+
+header #menubar a{
+    font-size: 20px;
+    margin: 0px 13px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header #menubar li:hover{
+    background-color: #1BB6D9;
 }

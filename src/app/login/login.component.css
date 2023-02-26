@@ -1,14 +1,21 @@
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 700px;
+#section-login {
+    margin-top: 100px;
 }
 
-#section-login{
-    height: 100%;
-    width: 400px;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 10px 20px;
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
 }

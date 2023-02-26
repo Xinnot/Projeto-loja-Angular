@@ -1,7 +1,51 @@
 footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 100px;
-    padding-top: 30px;
+    color: #fff;
+    background-color: #363636;
+    padding-top: 25px;
+}
+
+footer a{
+    color: #DE3B3B;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer #info{
+    font-size: 15px;
+}
+
+footer #info-cnpj{
+    font-size: 12px;
+}
+
+footer #info-inrvl{
+    font-size: 8px;
+}
+
+footer h3 img{
+    height: 50px;
+    width: 200px;
+}
+
+footer .rede-sociais{
+    display: flex;
+}
+
+footer img{
+    height: 25px;
+    width: 25px;
+}
+
+footer .rs-icon{
+    margin-left: 10px;
+}
+
+footer .copyright{
+    height: 27px;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
 }
