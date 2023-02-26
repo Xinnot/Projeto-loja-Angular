@@ -1,56 +1,82 @@
-main {
-    min-height: 500px;
+main{
+    color: #fff;
+    background-color: #212121;
 }
 
-#section-banner {
-    min-height: 400px;
+/* primeira seção */
+
+.banner-home{
+    width: 100%;
+    height: 450px;
 }
 
-#section-banner img {
-    height: 500px;
+.banner-home img{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
 }
 
-h2{
+.banner-home .texto-menu{
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.banner-home .texto-menu h1{
+    font-size: 40px;
+    width: 100%;
+    margin-top: -45px;
     text-align: center;
-    font-size: 30px;
-    margin-top: 5px;
 }
 
-.example-card {
-    max-width: 400px;
+.banner-home .texto-menu p{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    width: 100%;
 }
 
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: auto;
+/* segunda seção */
+
+#carouselExampleCaptions{
+    width: 80%;
+    margin: 0 auto;
+    display: table;
 }
 
-mat-grid-list{
-    margin: 10px 0px;
+#carouselExampleCaptions img{
+    width: 60%;
+    height: 600px;
 }
 
-mat-grid-tile{
-    padding: 2px;
-    border-radius: 30px;
+/* terceira seção */
+
+main .card-bar{
+    width: 80%;
 }
 
-mat-card-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+main .vendidos{
+    text-align: center;
 }
 
-mat-card-actions{
-    display: flex;
-    justify-content: space-around;
+main .vendidos h2{
+    font-weight: bold;
+    padding: 20px;
 }
 
-mat-card-actions p{
-    color: red;
-    font-size: 30px;
-}
-
-mat-card img{
+main .vendidos img{
     height: 300px;
-    width: 300px;
+    border-radius: 10px;
+}
+
+main .vendidos .card{
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+main .vendidos .preco{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
 }
